@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+/* body */
+body{
+    background-color: hsl(30, 54%, 90%);
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Young-Serif", sans-serif;
+    font-size: 16px;
+}
+
+/* container */
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* image */
+img{
+    border: none;
+    border-radius: 10px;
+    max-width:100% ;
+}
+
+/* heading */
+h1{
+    color:hsl(24, 5%, 18%);
+    font-family: "Young Serif", sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+
+.pink{
+    background-color:  hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 10px;
+}
+/* Preparations */
+h3{
+    color: hsl(332, 51%, 32%);
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    text-align: left;
+    font-weight:700;
+}
+
+
+/* Small description */
+p{
+    color: hsl(30, 10%, 34%);
+    text-align: left;
+    font-family: "Outfit";
+}
+
+/* lists */
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    font-family: "Outfit";
+}
+.Instructions li{
+    list-style: decimal;
+}
+li::marker{
+color: hsl(14, 45%, 36%);}
+
+.pink li::marker{
+    color: hsl(332, 51%, 32%);}
+
+
+/* other headings */
+h2{
+    color: hsl(14, 45%, 36%);
+    text-align: left ;
+    font-family: "Young serif", sans-serif;
+    font-weight: 600;
+}
+
+/* table */
+table{
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    border-collapse: collapse;
+    font-family: "Outfit", sans-serif;
+}
+th,td{
+    border-bottom: 1px solid hsl(24, 5%, 18%);
+    gap: 0;
+}
+/* changing color of the second column */
+.values{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+/* Media Queries */
+@media screen and(max-width:375px) {
+    /* body */
+    body{
+        background-color: hsl(30, 54%, 90%);
+        text-align: center;
+        display: flex;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Young-Serif", sans-serif;
+        font-size: 16px;
+    }
+
+    .container{
+        background-color: hsl(0, 0%, 100%);
+        width: 100%;
+        border: none;
+        border-radius: 0px;
+        padding: 20px;
+        margin-top: -10px;
+    }
+   img{
+    border: none;
+    border-radius: 0px;
+    width:100% ;
+   }
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
